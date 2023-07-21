@@ -1,0 +1,103 @@
+body {
+    background-color: #1a1a1a;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    color: #c0c0c0;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .cliente-datos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .buscar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .buscar input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .buscar button {
+    padding: 10px 20px;
+    background-color: #611e0f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buscar button:hover {
+    background-color: #3e130b;
+  }
+  
+  .datos {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 30px;
+  }
+  
+  .venta {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .venta input[type="date"],
+  .venta input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .venta button {
+    padding: 10px 20px;
+    background-color: #611e0f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .venta button:hover {
+    background-color: #3e130b;
+  }
+  
+  .historial {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .historial ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .historial ul li {
+    margin-bottom: 10px;
+  }
+  

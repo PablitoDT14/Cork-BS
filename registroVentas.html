@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registro de Ventas</title>
+  <link rel="stylesheet" type="text/css" href="./css/styles3.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Registro de Ventas</h1>
+  
+  <div class="cliente-datos">
+    <div class="buscar">
+      <input type="text" id="buscar-dni" placeholder="Ingrese DNI" required>
+      <input type="text" id="buscar-mail" placeholder="Ingrese E-mail" required>
+      <button onclick="buscarCliente()">Buscar</button>
+    </div>
+    <div class="datos">
+      <h2>Datos del Cliente</h2>
+      <p id="cliente-nombre"></p>
+      <p id="cliente-apellido"></p>
+      <p id="cliente-dni"></p>
+      <p id="cliente-mail"></p>
+    </div>
+  </div>
+
+  <div class="venta">
+    <h2>Cargar Venta</h2>
+    <input type="date" id="fecha-venta" required>
+    <input type="number" id="monto-cobrado" placeholder="Monto Cobrado" required>
+    <button onclick="registrarVenta()">Guardar Venta</button>
+  </div>
+
+  <div class="historial">
+    <h2>Historial de Transacciones</h2>
+    <ul id="historial-lista"></ul>
+  </div>
+
+  <script src="./scripts/ventas.js"></script>
+</body>
+</html>

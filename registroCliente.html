@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CORK</title>
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>CORK - Registro de clientes</h1>
+
+  <form id="clienteForm" onsubmit="return validarFormulario()">
+    <div>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+    </div>
+
+    <div>
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" required>
+    </div>
+
+    <div>
+      <label for="dni">DNI:</label>
+      <input type="text" id="dni" name="dni" required>
+    </div>
+
+    <div>
+      <label for="fechaNacimiento">Fecha de nacimiento:</label>
+      <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+    </div>
+
+    <div>
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" required>
+    </div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div>
+      <input type="submit" value="Guardar">
+    </div>
+  </form>
+
+  <script src="./scripts/validacion.js"></script>
+
+</body>
+</html>
